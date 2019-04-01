@@ -33,7 +33,7 @@
 
 - `AutoBlock once someone add you`
 - `AutoLeave Room`
-- `Autoreject spam invite`
+- `AutoReject Spam Invite`
 - `AutoBlock once someone invite you group call`
 
 ## Special Thanks To 

@@ -12,8 +12,6 @@
 - `me = LINE("token")`
 - `me = LINE("mail",password")`
 
-----
-
 ## Install
 
 - `apt update`

@@ -6,7 +6,6 @@ from time import sleep
 me = LINE()
 me.log("Auth Token : " + str(me.authToken))
 meMID = me.profile.mid
-botStart = time.time()
 oepoll = OEPoll(me)
 #==================================================================================================================#
 def logError(text):

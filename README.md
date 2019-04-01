@@ -14,6 +14,23 @@
 
 ----
 
+## Install
+------
+- `apt update`
+- `apt upgrade`
+- `apt install git`
+- `pkg install python -y`
+- `pip install thrift`
+- `pip install requests`
+- `pip install rsa`
+- `pip install akad`
+- `pip install bs4`
+- `pip install humanfriendly`
+- `pip install pytz`
+- `git clone https://github.com/yinmo-public/anti-spam`
+- `cd anti-spam`
+- `python anti-spam-mini.py`
+
 ## How it works?
 
 - `AutoBlock once someone add you`

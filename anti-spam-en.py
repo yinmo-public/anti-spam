@@ -108,8 +108,6 @@ while True:
             for op in ops:
                 lineBot(op)
                 oepoll.setRevision(op.revision)
-                thread = threading.Thread(target=bot, args=(op,))
-                thread.start()
     except:
         pass
         

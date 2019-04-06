@@ -20,9 +20,6 @@ def lineBot(op):
             print ("[ 6 ] {} 試圖騷擾您 已被系統封鎖".format(contact.displayName))
         if op.type == 13:
             if meMID in op.param3:
-               group = me.getGroup(op.param1)
-               inviter= me.getContact(op.param2)
-               print ("[ 13 ] " + inviter.displayName + " 邀請您加入" + str(group.name))
                if str(group.name).lower() in ["邀機","test","spam","邀機降臨","測試","。","幹","幹你娘","fuck"]:  #群名過濾
                   me.rejectGroupInvitation(op.param1)
                elif len(group.members) < 5:  #人數過濾
@@ -30,19 +27,8 @@ def lineBot(op):
         if op.type == 21 or op.type == 22 or op.type ==24:
             print ("[ 通知離開副本 ]")
             me.leaveRoom(op.param1)
-        if (op.type == 25 or op.type == 26) and op.message.contentType == 0:
+        if op.type == 26 and op.message.contentType == 0:
             msg = op.message
-            text = msg.text
-            msg_id = msg.id
-            receiver = msg.to
-            sender = msg._from
-            if msg.toType == 0:
-                if sender != me.profile.mid:
-                    to = sender
-                else:
-                    to = receiver
-            else:
-                to = receiver
             if 'ORGCONTP' in msg.contentMetadata.keys()!= None and msg.contentMetadata['ORGCONTP'] == "CALL":
                 if msg.contentMetadata['GC_EVT_TYPE'] == "I":
                     me.blockContact(sender)

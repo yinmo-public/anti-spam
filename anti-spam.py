@@ -61,7 +61,7 @@ def lineBot(op):
             me.blockContact(op.param1)
         if op.type == 6:
             contact = me.getContact(op.param1)
-            print ("[ 6 ] {} 試圖騷擾您 已被系統封鎖".format(contact.displayName))
+            print ("[ 6 ] {} 試圖騷擾您 已被系統封鎖".format(contact.displayName) + " Mid: " + contact.mid )
         if op.type == 13:
             if meMID in op.param3:
                group = me.getGroup(op.param1)

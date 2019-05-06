@@ -46,9 +46,10 @@
 ## Credits to
 [@author](https://line.me/ti/p/3eamxoks_T)
 
+----
 If you want to make a new feature, feel free to use my code
 
-- `Fork this repository to your local`
-- `Do not copy my code without my permission`
+`Fork this repository to your local`
+`Do not copy my code without my permission`
 
 ## Update 05/06/2019

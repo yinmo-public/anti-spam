@@ -71,7 +71,7 @@ def lineBot(op):
                   me.rejectGroupInvitation(op.param1)
                elif len(group.members) < 5:
                   me.rejectGroupInvitation(op.param1)
-        if op.type == 21 or op.type == 22 or op.type ==24:
+        if op.type == 22 or op.type ==24:
             print ("[ NOTIFY LEAVE ROOM ]")
             me.leaveRoom(op.param1)
         if (op.type == 25 or op.type == 26) and op.message.contentType == 0:

@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from Line.linepy import *
 from datetime import datetime
-from time import sleep
 #==================================================================================================================#
 me = LINE()
 me.log("Auth Token : " + str(me.authToken))

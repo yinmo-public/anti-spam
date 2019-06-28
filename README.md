@@ -27,7 +27,7 @@
 - `pip install pytz`
 - `git clone https://github.com/yinmo-public/anti-spam`
 - `cd anti-spam`
-- `python anti-spam-mini.py`
+- `python mini.py`
 
 ## How it works?
 

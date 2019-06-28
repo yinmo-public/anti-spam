@@ -16,7 +16,7 @@
 
 - `apt update`
 - `apt upgrade`
-- `apt install git`
+- `pkg install git`
 - `pkg install python -y`
 - `pip install thrift`
 - `pip install requests`

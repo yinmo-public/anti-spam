@@ -52,4 +52,5 @@
 - Fork this repository to your local
 - Do not copy my code without my permission
 
-## Update 28/06/2019
+## Update 2021
+⚠ DO NOT USE THIS CODE OR YOU WILL GET BAN CHAT
